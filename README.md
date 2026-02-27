@@ -1,2 +1,8 @@
 # Hamiltonian-Mechanics-in-Epidemic-Momentum
 A Study Of Hamiltonian Mechanics Regarding SIR models and The Application Of Higher Dimensional Analysis In Non-Mathematical Fields
+
+This repository is made for our enrichment project, where we will be looking at Hamiltonian mechanics, and how it can describe epidemic momentum through a Susceptible-Infected-Recovered (SIR) model. Our project would focus towards understanding the mathematical applicability of the mechanics, and its influence on general understanding of the ways epidemics can move through populations with a pseudo-exponential growth pattern. The dimensional analysis conducted in this project has a possibility of explaining other mathematical processes. In addition, our understanding of Hamiltonian dynamics and phase space will, specifically, give us insight into a system that may be utilized in novel ways and may be under-represented in fields outside of mathematics. This will allow us to bring a new perspective to our work, potentially giving us new applications and paths to explore.  We think it will also be interesting to discuss how we can create models of these mechanics through code, learning to analyse data through varying equations and changes in constants, as well as learning how diseases can spread through a population by various means, depending on the disease. Our aim with this project will be to introduce Hamiltonian mechanics and one of their applications to people who aren’t “math-minded” or well versed in higher dimensional analysis in an easily digestible manner.
+
+The times we would want to have our meetings are:\
+Monday 12:30 - 1:30\
+Wednesday 9:30 - 10:30
