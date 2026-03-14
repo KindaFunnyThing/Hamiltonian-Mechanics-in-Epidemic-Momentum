@@ -1,3 +1,7 @@
 # Notes on Hamiltonian Mechanics
 ## This is a documentation of the playlist and brief notes
-* 
+* The math for hamiltonian mechanics is essentially displaying the position and momentum in a different way
+* Position on the x axis and momentum (p) on the y
+* Would be able to figure out the path taken as either position or time changes, stated as a function. Call the function *H(x,p)*
+* Drawing contours from this, we are able to determine that the gradient of H can't provide much information, but if the variables are altered and made orthogonal, we are able to figure out the tangent of the function of *(x(t),p(t))*
+* This also means that we are able to find out that the tangent of this function, let's call it S_x and S_p, would be equivalent to the 90 deg grad of the 
