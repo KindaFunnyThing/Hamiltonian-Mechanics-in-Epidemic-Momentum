@@ -5,4 +5,4 @@
 * Would be able to figure out the path taken as either position or time changes, stated as a function. Call the function *H(x,p)*
 * Drawing contours from this, we are able to determine that the gradient of H can't provide much information, but if the variables are altered and made orthogonal, we are able to figure out the tangent of the function of *(x(t),p(t))*
 * This also means that we are able to find out that the tangent of this function, let's call it S<sub>x</sub> and S<sub>p</sub>, would be equivalent to the 90 deg grad of the H function
-* Ultimately, through algebra, it is found that the derivative of *(x(t),p(t))* is just *$\bar{S}$=(x(t),p(t))*
+* Ultimately, through algebra, it is found that the derivative of *(x(t),p(t))* is just $\bar{S}$=*(x(t),p(t))*
