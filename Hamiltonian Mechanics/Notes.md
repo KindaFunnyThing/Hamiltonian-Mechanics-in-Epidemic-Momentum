@@ -11,4 +11,4 @@
 
 ### Pertaining to Measurements
 * Hamiltonian mechanics can be used for measurements' uncertainty the same way, mapping the variance of a measurement into another measurement that is an alteration of infinitesimal point from the original measurement
-    * This is to say, *x(t<sub>f</sub>)=x(t<sub>i</sub>+dt)*
+    * This is to say, *x(t<sub>f</sub>) = x(t<sub>i</sub> + dt)*
