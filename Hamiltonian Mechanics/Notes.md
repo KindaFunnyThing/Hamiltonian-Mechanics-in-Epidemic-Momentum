@@ -8,3 +8,7 @@
 * This also means that we are able to find out that the tangent of this function, let's call it S<sub>x</sub> and S<sub>p</sub>, would be equivalent to the 90 deg grad of the H function
 * Ultimately, through algebra, it is found that the derivative of *(x(t),p(t))* over *dt* is just $\bar{S}$*(x(t),p(t))* 
 * Extracted from this, we can derive that *div*($\bar{S}$) is 0
+
+### Pertaining to Measurements
+* Hamiltonian mechanics can be used for measurements' uncertainty the same way, mapping the variance of a measurement into another measurement that is an alteration of infinitesimal point from the original measurement
+    * This is to say, *x(t<sub>f</sub>)=x(t<sub>i</sub>+dt)*
