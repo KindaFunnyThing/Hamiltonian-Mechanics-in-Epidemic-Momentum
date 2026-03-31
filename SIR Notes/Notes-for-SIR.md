@@ -1,5 +1,3 @@
-\usepackage{amssymb}
-
 # Notes from the source posted by Dr. Bolker
 
 - Humans divided into three different categories:
