@@ -7,5 +7,5 @@
     * $S + I + R = N$, a total number of individuals
 
 Two main ODE's, about the rate displayed by the flow of individuals into and out of each category:
-* $\frac(dS/dt) = -\betaSI$
-* $\frac(dI/dt) = \betaSI - \gammaI$
+* $\fracdS dt = -\beta SI$
+* $\fracdI dt = \beta SI - \gamma I$
