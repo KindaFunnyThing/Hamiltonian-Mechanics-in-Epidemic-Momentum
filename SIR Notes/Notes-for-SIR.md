@@ -6,6 +6,6 @@
     * Removed: indicated by R
     * $S + I + R = N$, a total number of individuals
 
-Two main ODE's, about the rate displayed by the flow of individuals into and out of each category:
-* $\frac{dS}{dt} = -\beta SI$
-* $\frac{dI}{dt} = \beta SI - \gamma I$
+- Two main ODE's, about the rate displayed by the flow of individuals into and out of each category:
+    * $\frac{dS}{dt} = -\beta SI$
+    * $\frac{dI}{dt} = \beta SI - \gamma I$
