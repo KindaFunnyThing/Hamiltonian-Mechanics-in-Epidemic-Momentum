@@ -15,6 +15,6 @@
 
     But it is not used, because $R$ does not have an impact on the dynamics of $S$ and $I$
 
-    \beta is the transmission rate per capita, and \gamma is the recovery rate, so how many people are recovering per unit time
-    
+    $\beta$ is the transmission rate per capita, and $\gamma$ is the recovery rate, so how many people are recovering per unit time
+
     This means that $\frac{1}{\gamma}$ would be the mean infectious period, because it is the reciprocal of the original: $\frac{1}{time}$
