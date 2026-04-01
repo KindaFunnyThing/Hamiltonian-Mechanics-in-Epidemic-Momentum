@@ -39,3 +39,6 @@ $$
 \frac{dI}{dS} = -1 + \frac{1}{ℝ_0S}
 $$
 
+This can be integrated to find:
+
+$$
