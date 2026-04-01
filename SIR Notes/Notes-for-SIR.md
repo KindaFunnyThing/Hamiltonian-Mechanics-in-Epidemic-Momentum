@@ -6,7 +6,7 @@
     * Removed: indicated by R
     * $S + I + R = N$, a total number of individuals
 
-- Two main ODE's, about the rate displayed by the flow of individuals into and out of each category:
+Two main ODE's, about the rate displayed by the flow of individuals into and out of each category:
 
 $$
 \frac{dS}{dt} = -\beta SI
@@ -15,7 +15,7 @@ $$
 \frac{dI}{dt} = \beta SI - \gamma I
 $$
 
-- There is a third:
+There is a third:
 
 $$
 \frac{dR}{dt} = \gamma I
@@ -24,11 +24,9 @@ $$
 But it is not used, because $R$ does not have an impact on the dynamics of $S$ and $I$
 
 $\beta$ is the transmission rate per capita, and $\gamma$ is the recovery rate, so how many people are recovering per unit time
-
-This means that $\frac{1}{\gamma}$ would be the mean infectious period, because it is the reciprocal of the original: $\frac{1}{time}$
+- This means that $\frac{1}{\gamma}$ would be the mean infectious period, because it is the reciprocal of the original: $\frac{1}{time}$
 
 $S(0) = N$, obviously, because no one knows about the disease yet so no vaccines. Of course, there would be exceptions in the real world, but this is ideal world.  
-
 - Since the first infected person has the transmission rate and the population number, along with the infectious period's time chance to infect people around them, this means that the $basic\ reproduction\ rate$ of the disease would be $ℝ_0$
 - Nothing can increase unless $ℝ_0 > 1$
 
@@ -36,6 +34,8 @@ $S(0) = N$, obviously, because no one knows about the disease yet so no vaccines
 
 - Since the transmission rate is per capita, this would also mean that the rate is written as some number divided by the total amount of individuals. 
     * Using this, we can write the two equations in a different way:
+
 $$
 \frac{dI}{dS} = -1 + \frac{1}{ℝ_0S}
 $$
+
