@@ -9,7 +9,6 @@
 - Two main ODE's, about the rate displayed by the flow of individuals into and out of each category:
 $
 \frac{dS}{dt} = -\beta SI
-
 \frac{dI}{dt} = \beta SI - \gamma I
 $
 
