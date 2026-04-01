@@ -10,7 +10,8 @@
 
 $$
 \frac{dS}{dt} = -\beta SI
-
+$$
+$$
 \frac{dI}{dt} = \beta SI - \gamma I
 $$
 
