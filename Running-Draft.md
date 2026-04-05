@@ -66,3 +66,30 @@ When this fourth steady state exists all orbits converge on it and each of the s
 
 (insert Figure 1.4)
 Figure 2: These are nullclines for the two-species Lotka-Volterra Model with a mutualistic  term added. The graph on the left shows a12 = 0.4 and a21=0.3. The graph of the right shows a12 = 2.0 and a21 = 1.0.
+
+
+
+SIR models: Understanding Epidemics (Working heading) (All the equations were done in word bc we are working on like 3 different platforms and will be much cleaner when finalized)
+
+Epidemics have a long and storied history concerning and relating to human beings. Many have had enormous death tolls both to do with infection from the pathogen and the social havoc it has the potential to wreak. So, in order to combat these events, models have been created in order to further understand and dissect the spread of infectious agents. One model that is useful for doing this is the SIR, or Susceptible-Infected-Recovered model (also known as Susceptible-Infected-Removed), model. This model splits the population into;
+
+	Susceptible (S): the individuals in the population that are able to be infected by the pathogen
+	Infected (I): the individuals who have already been infected with the pathogen and have not yet recovered from the infection
+	Recovered (R): the individuals who have been infected and then have recovered from the infection and cannot be reinfected
+
+These categories by themselves are useful for looking at a population in a specific point in time but when looking at the changes in them as the epidemic progresses, insight as to how long epidemics can last and how they will resolve themselves can be gleaned. In order to do this an ordinary differential equation (ODE), equations 2.1, 2.5 and 2.3, can be assigned to each category,
+\begin{align}\frac{dS}{dt}=\sigma N\ -\ \mu S-\beta I\frac{S}{N}#\left(2.1\right)\end{align}
+In this equation, N is the total population that is being affected by the epidemic where   N = S + I + R. σ is the birth rate of the population and µ is the death rate. In equation 2.2, these two are equal to each other creating a population whose change in population is zero (dN/dt = 0). 
+\begin{align}\frac{dS}{dt}=\mu\left(N-S\right)-\beta I\frac{S}{N}#\left(2.2\right)\end{align}
+This creates a constant population and eliminates one factor when examining infectious diseases, creating a limitation on the kind of scenario and pathogen that can be examined but simplifying the analysis. This equation can be further refined by a closed epidemic where in there are no births or deaths making the first term in equation 2.2 equal to 0,
+\frac{dS}{dt}=-\beta I\frac{S}{N}
+
+Here, ß represents the transmission rate per capita of the pathogen, showing how many people the infection will spread to from one individual. Additionally, the terms S, I and R are all integers in these equation. This equation is also sometimes presented as shown in equation 2.4, where these terms are represented in percentages of the population, eliminating the factor N and instead incorporating it into the S term,
+\begin{align}\frac{dS}{dt}=-\beta IS#\left(2.4\right)\end{align}
+This paper will be utilizing the form of these equations wherein the S,I, and R terms are integers. 
+
+The change in the infected portion of the population is given by equation 2.5 containing a term to do with the infection of the susceptible portion of the population, the recovery from the existing infected pool, and the death rate associated with the infected population. For simplicity the infection will be non-lethal causing the death rate of the population to be equal to the death rate in each category of the population,
+\begin{align}\frac{dI}{dt}=\beta I\frac{S}{N}-\gamma I-\mu I#\left(2.5\right)\end{align}
+The γ term represents the recovery rate of infected individuals transferring them to the recovered pool with equation 2.6,
+\begin{align}\frac{dR}{dt}=\gamma I-\mu R#\left(2.6\right)\end{align}
+
