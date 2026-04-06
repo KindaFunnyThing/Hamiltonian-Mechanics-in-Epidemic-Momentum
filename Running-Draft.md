@@ -14,9 +14,11 @@ mathematically model many real world arguments, such as the predator
 prey cycles, as described by Lodka-Voltera models, and our understanding of how epidemics spread among the human population, described through susceptible-infected-recovered (SIR) models. To understand these, we first need to understand Hamiltonian mechanics, and how they imply the preservation of information through many tools.
 The Hamiltonian is originally described as a set of two ordinary 
 differential equations (ODEs); 
+
 $$
 x=\frac{\partial H}{\partial p},  p=-\frac{\partial H}{\partial x}, 
 $$
+
 
 where p is the derivative of momentum with respect to time, and x 
 is the derivative of position with respect to time, stated according 
