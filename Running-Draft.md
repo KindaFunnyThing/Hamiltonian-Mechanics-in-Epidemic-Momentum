@@ -98,10 +98,13 @@ The γ term represents the recovery rate of infected individuals transferring th
 \begin{align}\frac{dR}{dt}=\gamma I-\mu R#\left(2.6\right)\end{align}
 
 With these three equations we assume that the infection rate of the pathogen does not change throughout the period of infection, that once they have been exposed to the pathogen that a susceptible individual is immediately infectious, that people in the recovered category are now immune to reinfection and that there are no changing social factors (which may be included in the ß term). These assumptions, like the death and birth rate assumptions, limit the application of these equations but also simplify the analysis of the situation. For this SIR model, the basic reproductive ratio is shown in equation 2.7. 
+
 $$
 \begin{align}R_0=\frac{\beta}{\gamma+\mu}\left(2.7\right)\end{align}
 $$
+
 This ratio is defined as the number of cases that are expected to appear in a completely susceptible population when a single infected individual is present. This ratio can then be modified using the fraction of the population that is susceptible to the pathogen (s) in order to create the running ratio (RE), or the estimated number of people that will be infected from a single individual in a population that is not fully susceptible, shown in equation 2.8,
+
 $$
 \begin{align}R_E=sR_0\left(2.8\right)\end{align}
 $$
