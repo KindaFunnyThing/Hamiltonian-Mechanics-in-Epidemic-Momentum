@@ -104,18 +104,24 @@ With these three equations we assume that the infection rate of the pathogen doe
 R0 and RE are extremely important values as they represent whether a pathogen can establish itself within a community and whether it will be able sustain itself within a community. If R0 or RE are below 1, the pathogen will not be able to get a foothold in the community or, if already present, sustain itself as the infection rate is simply not large enough to outpace the recovery rate (γ), the death rate (µ) or some combination of the two. In other words, if each infected individual passes the pathogen to less than one other individual the number of infected individuals will eventually fall to zero.
 
 The SIR models described in the equations above can be taken in the form of an open or a closed epidemic. One where the susceptible category is not finite and new individuals are added to it either through birth, immigration or losing immunity to the pathogen, and the other where the susceptible category is finite. These two situations have different final sates of the epidemic. A closed epidemic results in the pathogen burning through everyone in the susceptible category reaching a state where S is equal to some portion of the population that escaped infection, an I equal to zero as everyone who was infected recovered or died, and an R equal to the portion of the population that recovered. This is different in an open epidemic with a pathogen whose recovery rate is not too fast and who is not highly deadly. This allows for the pool of susceptible individuals to refill and for a new epidemic to start once the last one has ended and the pathogen burned through the majority of the susceptible population. Eventually, as the population is re-exposed to this pathogen a steady state is achieved defined as (S*, I*, R*). These are defined by equations 2.9, 2.10, and 2.11, wherein the changes in these populations are set to zero and then rearranged;
+
 $$
 S^\ast=\frac{\left(\gamma+\mu\right)}{\beta}=\frac{1}{\operatorname{R}_0}\ \ \ \ \ (2.9)\\
 I^\ast=\frac{\mu\left(R_0-1\right)}{\beta} \ \ \ \ \ \ \ \ \ \ \ \ \ \left(2.10\right) \\
 R^\ast=N-S^\ast-I^\ast \ \ \ \ \ \ \ \ \ \left(2.11\right)
 $$
+
 These models can be solved in various ways, including using the Eulers approximation wherein the ODE’s are solved and incrementally calculated by a computer using the equations described in equations 2.12 and 2.13;
+
 $$
 \begin{aligned}S\left(t+\Delta t\right)=S\left(t\right)+\ \nu N(t)\Delta t\ +\beta I\left(t\right)S\left(t\right)\Delta t\ -\ \mu S(t)\Delta t &&\left(2.12\right)\end{aligned}
 $$
+
 and
+
 $$
 \begin{aligned}I\left(t+\Delta t\right)=I\left(t\right)+\beta S\left(t\right)I\left(t\right)\Delta t-\gamma I\left(t\right)\Delta t\ -\ \mu I(t)\Delta t\ \ \ \ \ \ \ \ \ \left(2.13\right)\end{aligned}
 $$
+
 Both of these methods provide a reoccurring epidemic that eventually levels off into a steady state as described above. These equations when plotted as the population of the infected category against time will show a dampening effect on the number of infected individuals ever new epidemic that occurs until it reaches the steady state defined by the pathogen and populations parameters, seen in figure ?a. However, when transferring this to phase space as is done in figure ?b, which plots the infected population against the susceptible population it forms a two-dimensional oblong spiral, which still exhibits the dampening effect, whose center is the steady state of the epidemic. In figure (?+1), the nullclines of the system are shown intersecting the center of the spiral. Similarly to the Lotka-Volterra predator-prey models whose competitive factors a12 and a21 are below 1, the nullclines intersect one another and push the two components to a steady state.
 
