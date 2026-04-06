@@ -1,4 +1,5 @@
-Introduction to Hamiltonian Mechanics and its Attributes
+## Introduction to Hamiltonian Mechanics and its Attributes
+
 Ever since Newton and Leibniz discovered forces, the mathematical 
 community has been at a constant incline of improvement on scientific 
 discoveries, physical phenomena being described through concepts 
