@@ -185,3 +185,4 @@ $$
 
 Both of these methods provide a reoccurring epidemic that eventually levels off into a steady state as described above. These equations when plotted as the population of the infected category against time will show a dampening effect on the number of infected individuals ever new epidemic that occurs until it reaches the steady state defined by the pathogen and populations parameters, seen in figure ?a. However, when transferring this to phase space as is done in figure ?b, which plots the infected population against the susceptible population it forms a two-dimensional oblong spiral, which still exhibits the dampening effect, whose center is the steady state of the epidemic. In figure (?+1), the nullclines of the system are shown intersecting the center of the spiral. Similarly to the Lotka-Volterra predator-prey models whose competitive factors a12 and a21 are below 1, the nullclines intersect one another and push the two components to a steady state.
 
+
