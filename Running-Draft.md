@@ -9,11 +9,12 @@ $$
 $$
 
 In a Lotka-Volterra model that is modelling the presence of more than one species there are more complex equations and considerations. In a two species system with a predator and prey, the change in either population is dependant on the population of the other and can be modelled by
+
 $$
 \frac{1}{N}dNdt=a − bP
 $$
 $$
-1PdPdt=cN − d
+\frac{1}{P}dPdt=cN − d
 $$
 
 Where a,b,c,d are constants, N is the prey population and P is the predator population. As seen in these equations and figure 1, when these are plotted, they show periodic orbits. That is to say that the populations of the prey and predator continuously fluctuate but always return to the same places. Intuitively, this means that once an initial set of conditions has been set,assuming a≠bP, d≠cN, and all variables are positive, the populations as time progresses are able to be predicted. Due to the nature of each population relying on the population of the other, the fluctuations repeat themselves with the initial state being returned to repeatedly as the populations move through time.
