@@ -52,6 +52,7 @@ variables:
 $$
 \frac{\partial H}{\partial p}=Sx=Sx(x,p)=\frac{dx}{dt}
 $$
+
 $$
 \frac{\partial H}{\partial x}=Sp=Sp(x,p)=\frac{dp}{dt} .
 $$
@@ -121,11 +122,16 @@ constant Jacobian at this value implies that the Jacobian = 1. This
 tells us that the area would be preserved even if the coordinate system 
 is changed.
 
-## Writing Draft in Docs
 
-Introduction to Lotka-Volterra models in conjunction with Hamiltonian Mechanics
+## Introduction to Lotka-Volterra models in conjunction with Hamiltonian Mechanics
 
-In order to better understand the growth and decay rates of animal populations mathematical models were created to more analytically analyze the patterns present in these rates. One of these models is the Lotka-Volterra model which, in their most simple, single species form, are modelled using the density of the species(⍴), the amount of the species present (N) and the carrying capacity of the environment for the species(K),
+In order to better understand the growth and decay rates of animal 
+populations mathematical models were created to more analytically 
+analyze the patterns present in these rates. One of these models is 
+the Lotka-Volterra model which, in their most simple, single species 
+form, are modelled using the density of the species(⍴), the amount of 
+the species present (N) and the carrying capacity of the environment 
+for the species(K),
 
 $$
 \frac{dN}{dt} = \rho N(1 − \frac{N}{K})
@@ -136,6 +142,7 @@ In a Lotka-Volterra model that is modelling the presence of more than one specie
 $$
 \frac{1}{N}dNdt=a − bP
 $$
+
 $$
 \frac{1}{P}dPdt=cN − d
 $$
@@ -150,6 +157,7 @@ These equations are in fact Hamiltonian in nature. When rearranging the equation
 $$
 −(cN − d)NdNdt +(a − bP)PdPdt = 0
 $$
+
 $$
 H(N, P) = d log N − cN + a log P − bP
 $$
@@ -159,9 +167,11 @@ This is changed to canonical Hamiltonian coordinates using
 $$
 p = log N, q = log P
 $$
+
 $$
 dpdt=\frac{1}{N}\frac{dN}{dt}= a − bP = a − beq = \frac{\partial h}{\partial q}
 $$
+
 $$
 dqdt=\frac{1}{P}\frac{dP}{dt}= cN − d = ce^p − d = -\frac{\partial h}{\partial p}
 $$
@@ -171,6 +181,7 @@ These equations are not wholly realistic however as they ignore fundamental part
 $$
 dN1dt=ρ1N1(1 − N1K1− c1N2)
 $$
+
 $$
 dN2dt=ρ2N2(1 − N2K2− c2N1)
 $$
@@ -180,6 +191,7 @@ With c > 0 representing the competitiveness of the species. However, in order to
 $$
 du1dτ=u1 (1 − u1 − a12u2)
 $$
+
 $$
 du2dτ=ρu2 (1 − u2 − a21u1)
 $$
@@ -222,15 +234,30 @@ Figure 2: These are nullclines for the two-species Lotka-Volterra Model with a m
 
 
 
-SIR models: Understanding Epidemics (Working heading) (All the equations were done in word bc we are working on like 3 different platforms and will be much cleaner when finalized)
+## SIR models: Understanding Epidemics (Working heading) (All the equations were done in word bc we are working on like 3 different platforms and will be much cleaner when finalized)
 
 Epidemics have a long and storied history concerning and relating to human beings. Many have had enormous death tolls both to do with infection from the pathogen and the social havoc it has the potential to wreak. So, in order to combat these events, models have been created in order to further understand and dissect the spread of infectious agents. One model that is useful for doing this is the SIR, or Susceptible-Infected-Recovered model (also known as Susceptible-Infected-Removed), model. This model splits the population into;
 
-	Susceptible (S): the individuals in the population that are able to be infected by the pathogen
-	Infected (I): the individuals who have already been infected with the pathogen and have not yet recovered from the infection
-	Recovered (R): the individuals who have been infected and then have recovered from the infection and cannot be reinfected
+$$
+Susceptible (S): \text{the individuals in the population that are able to be infected by the pathogen}
+$$
 
-These categories by themselves are useful for looking at a population in a specific point in time but when looking at the changes in them as the epidemic progresses, insight as to how long epidemics can last and how they will resolve themselves can be gleaned. In order to do this an ordinary differential equation (ODE), equations 2.1, 2.5 and 2.3, can be assigned to each category,
+$$
+Infected (I): \text{the individuals who have already been infected with 
+the pathogen and have not yet recovered from the infection}
+$$
+
+$$
+Recovered (R): \text{the individuals who have been infected and then have
+recovered from the infection and cannot be reinfected}
+$$
+
+These categories by themselves are useful for looking at a population 
+in a specific point in time but when looking at the changes in them as 
+the epidemic progresses, insight as to how long epidemics can last and 
+how they will resolve themselves can be gleaned. In order to do this an 
+ordinary differential equation (ODE), equations 2.1, 2.5 and 2.3, can 
+be assigned to each category,
 
 $$
 \begin{align}\frac{dS}{dt}=\sigma N\ -\ \mu S-\beta I\frac{S}{N}\left(2.1\right)\end{align}
@@ -287,9 +314,11 @@ The SIR models described in the equations above can be taken in the form of an o
 $$
 S^\ast=\frac{\left(\gamma+\mu\right)}{\beta}=\frac{1}{ℝ_0} \qquad (2.9)
 $$
+
 $$
 I^\ast=\frac{\mu\left(R_0-1\right)}{\beta} \qquad \left(2.10\right)
 $$
+
 $$
 R^\ast=N-S^\ast-I^\ast \qquad \left(2.11\right)
 $$
