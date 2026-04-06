@@ -106,7 +106,7 @@ R0 and RE are extremely important values as they represent whether a pathogen ca
 The SIR models described in the equations above can be taken in the form of an open or a closed epidemic. One where the susceptible category is not finite and new individuals are added to it either through birth, immigration or losing immunity to the pathogen, and the other where the susceptible category is finite. These two situations have different final sates of the epidemic. A closed epidemic results in the pathogen burning through everyone in the susceptible category reaching a state where S is equal to some portion of the population that escaped infection, an I equal to zero as everyone who was infected recovered or died, and an R equal to the portion of the population that recovered. This is different in an open epidemic with a pathogen whose recovery rate is not too fast and who is not highly deadly. This allows for the pool of susceptible individuals to refill and for a new epidemic to start once the last one has ended and the pathogen burned through the majority of the susceptible population. Eventually, as the population is re-exposed to this pathogen a steady state is achieved defined as (S*, I*, R*). These are defined by equations 2.9, 2.10, and 2.11, wherein the changes in these populations are set to zero and then rearranged;
 
 $$
-S^\ast=\frac{\left(\gamma+\mu\right)}{\beta}=\frac{1}{\operatorname{R}_0}\ \ \ \ \ (2.9)\\
+S^\ast=\frac{\left(\gamma+\mu\right)}{\beta}=\frac{1}{ℝ_0}\ \ \ \ \ (2.9)\\
 I^\ast=\frac{\mu\left(R_0-1\right)}{\beta} \ \ \ \ \ \ \ \ \ \ \ \ \ \left(2.10\right) \\
 R^\ast=N-S^\ast-I^\ast \ \ \ \ \ \ \ \ \ \left(2.11\right)
 $$
