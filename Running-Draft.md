@@ -104,11 +104,20 @@ flux(\bar S)=0,
 $$
 
 over a closed area, because of the divergence theorem: 
+
 $$
 \iiint_V \left(\nabla \cdot F \right) \, dV = 
 \iint_{\partial V} F \cdot \mathbf{n} \, \ dS.
 $$
-Here, the left-hand side would signify the divergence, and the right-hand side would be the flux across the boundary. The flux being 0 means that the volume of the area remains the same with every transformation, which thereby implies that the Jacobian is constant. Since the zeroth value of (x(t), p(t)) is (x0, p0) (meaning at t=0), a constant Jacobian at this value implies that the Jacobian = 1. This tells us that the area would be preserved even if the coordinate system is changed.
+
+Here, the left-hand side would signify the divergence, and the 
+right-hand side would be the flux across the boundary. The flux being 
+0 means that the volume of the area remains the same with every 
+transformation, which thereby implies that the Jacobian is constant. 
+Since the zeroth value of (x(t), p(t)) is (x0, p0) (meaning at t=0), a 
+constant Jacobian at this value implies that the Jacobian = 1. This 
+tells us that the area would be preserved even if the coordinate system 
+is changed.
 
 ## Writing Draft in Docs
 
