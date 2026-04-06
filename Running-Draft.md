@@ -1,3 +1,113 @@
+Introduction to Hamiltonian Mechanics and its Attributes
+Ever since Newton and Leibniz discovered forces, the mathematical 
+community has been at a constant incline of improvement on scientific 
+discoveries, physical phenomena being described through concepts 
+simple as one would learn in early years of education, yet the math 
+would be hard to follow. 
+
+One of these concepts has been coined Hamiltonian Mechanics, which is 
+the sum of energies within a system, usually kinetic and potential, 
+and has been used through many concepts and mathematical developments 
+to prove its usefulness. Such new concepts can be utilized to 
+mathematically model many real world arguments, such as the predator 
+prey cycles, as described by Lodka-Voltera models, and our understanding of how epidemics spread among the human population, described through susceptible-infected-recovered (SIR) models. To understand these, we first need to understand Hamiltonian mechanics, and how they imply the preservation of information through many tools.
+The Hamiltonian is originally described as a set of two ordinary 
+differential equations (ODEs); 
+$$
+x=\frac{\partial H}{\partial p},  p=-\frac{\partial H}{\partial x}, 
+$$
+
+where p is the derivative of momentum with respect to time, and x 
+is the derivative of position with respect to time, stated according 
+to Newton’s notations. The integral of these two can be summed to form 
+the Hamiltonian (H), which is the sum of energies within a system: 
+
+$$
+H(x(t),p(t))=kinetic \ energy+potential \ energy.
+$$
+
+Here, kinetic energy can be stated as a function of p, and the 
+potential energy can be stated as a function of x. There are 
+equations where the functions are not separable, but it is not going 
+to be the case with concepts introduced within this paper. 
+
+Hamilton took these concepts from the Lagrangian system, which is 
+calculated by subtracting the potential energy from the kinetic energy. 
+One can think of the Lagrangian as the direct link to Newton’s laws, 
+identifying the path of an object depending on what the conditions 
+such as position or velocity are. The Hamiltonian, on the other hand, 
+abstractly identifies the flow of the system as defined by the 
+“phase-space”, a space that maps every possible path an object would 
+take depending on where along the space its position and momentum are 
+defined (Abide by Reason 2025). 
+
+This attribute gives us the ability to extract additional data 
+from the Hamiltonian. First, we have to define a new way to be able 
+to look at the Hamiltonian and its variables, namely introducing new 
+variables: 
+
+$$
+\frac{\partial H}{\partial p}=Sx=Sx(x,p)=\frac{dx}{dt}
+$$
+$$
+\frac{\partial H}{\partial x}=Sp=Sp(x,p)=\frac{dp}{dt} .
+$$
+
+This new coordinate system presents a new mapping set that can 
+provide a more solid understanding of what goes on with the 
+Hamiltonian. If we consider
+
+$$
+S=[Sx,
+	Sp],
+$$
+
+and S is mapped onto a phase space, it would provide a vector field 
+that is tangent to the contour lines of the phase-space provided by 
+the Hamiltonian (Figure 1). 
+
+
+
+Figure 1: A display of the vector field provided by S projected onto 
+the same map on which contour lines of an arbitrary Hamiltonian 
+equation exist. H=k0 and H=k2 are constants that define the contour 
+lines on the graph (Gabriele Carcassi 2013). 
+
+Mathematically, we can state that
+
+$$
+div(\bar S)= \nabla \cdot F=\frac{\partial}{\partial x}
+\left(\frac{\partial H}{\partial p}\right)+
+\frac{\partial}{\partial p}
+\left(\frac{\partial H}{\partial x}\right),
+$$
+
+which resolves down to
+
+$$
+div(\bar S)=\frac{\partial^2 H}{\partial x \partial p}-
+\frac{\partial^2 H}{\partial p \partial x}=0, 
+$$
+
+since 
+
+$$
+\frac{\partial^2 H}{\partial x \partial p}=
+\frac{\partial^2 H}{\partial p \partial x}.
+$$
+This also implies that
+
+$$
+flux(\bar S)=0,
+$$
+
+over a closed area, because of the divergence theorem: 
+$$
+\iiint_V \left(\nabla \cdot F \right) \, dV = 
+\iint_{\partial V} F \cdot \mathbf{n} \, \ dS.
+$$
+Here, the left-hand side would signify the divergence, and the right-hand side would be the flux across the boundary. The flux being 0 means that the volume of the area remains the same with every transformation, which thereby implies that the Jacobian is constant. Since the zeroth value of (x(t), p(t)) is (x0, p0) (meaning at t=0), a constant Jacobian at this value implies that the Jacobian = 1. This tells us that the area would be preserved even if the coordinate system is changed.
+
 ## Writing Draft in Docs
 
 Introduction to Lotka-Volterra models in conjunction with Hamiltonian Mechanics
