@@ -96,6 +96,7 @@ $$
 \frac{\partial^2 H}{\partial x \partial p}=
 \frac{\partial^2 H}{\partial p \partial x}.
 $$
+
 This also implies that
 
 $$
