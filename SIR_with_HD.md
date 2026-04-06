@@ -55,5 +55,16 @@ $$
 $$
 
 $$
-\frac{I\left(t+\Delta t\right) - I\left(t\right)}{\Delta t} = \beta S\left(t\right)I\left(t\right) -\gamma I\left(t\right) - \mu I(t)
+\frac{I\left(t+\Delta t\right) - I\left(t\right)}{\Delta t} = \beta S\left(t\right)I\left(t\right) -\gamma I\left(t\right) - \mu I(t).
 $$
+
+For $\Delta t$ small enough, we can refer to is as $dt$, which ends up being the perfect set of equations we require in order to set up a Hamiltonian:
+
+$$
+\frac{dx}{dt}=\frac{\partial H}{\partial p}=\frac{\partial S}{\partial t},
+$$
+
+$$
+\frac{dp}{dt}=-\frac{\partial H}{\partial x}=\frac{\partial I}{\partial t}
+$$
+
