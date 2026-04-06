@@ -106,8 +106,8 @@ $$
 over a closed area, because of the divergence theorem: 
 
 $$
-\iiint_V \left(\nabla \cdot F \right) \, dV = 
-\iint_{\partial V} F \cdot \mathbf{n} \, \ dS.
+\iiint_V \left(\nabla \cdot F \right) \ \ dV = 
+\iint_{\partial V} F \cdot \mathbf{n} \ \ dS.
 $$
 
 Here, the left-hand side would signify the divergence, and the 
