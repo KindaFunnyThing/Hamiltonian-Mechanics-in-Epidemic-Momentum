@@ -78,13 +78,13 @@ A more inferring version of the eqaution can be looked at in order to convert th
 
 <div align="right">
 
-$$
-V(S,I)=S- \hat S \log{S} + I - \hat I \log{I} 
-$$
+$
+\begin{aligned}V(S,I)=S- \hat S \log{S} + I - \hat I \log{I}\end{aligned}
+$ 
 
 </div>
 
-This is done to achieve a function that is continously decreasing, 
+This is done to prove the asymptotic nature of the equation, and proclaims that it approaches 0. Such an 
 
 #### Inference and Discussion of this Section
 
