@@ -82,8 +82,14 @@ $$\begin{aligned}V(S,I)=S- \hat S \log{S} + I - \hat I \log{I}\end{aligned}$$
 
 </div>
 
-This is done to prove the asymptotic nature of the equation, and proclaims that it approaches 0. Such an 
+This is done to prove the asymptotic nature of the equation, and proclaims that V approaches 0. Such an alteration means that it resembles the equations of SIR itself, since it is a modified version that is derived from those equations. These models work only in an extremely specific circumstance: to prove that the equations approach a certain value, which in this case would be 0. Although, since it is derived from the root equations of the SIR models, it is practical to use it in comparison to the Lodka-Volterra system. This also lets us see the equation in a format that resembles the Lodka-Volterra Hamiltonian Dynamics equation: 
+
+$$
+H(N, P) = − cN + d \log{N} − bP + a \log{P} \Longleftrightarrow V(S,I)=S- \hat S \log{S} + I - \hat I \log{I}
+$$
+
+Here, one can clearly see that the equations have similarities within them, and the only thing needed in order for both to have the same properties is for the signs to be flipped. This bridges the gap in between Hamiltonian Dynamics, Lodka-Volterra systems, and SIR models, all in simplistic circumstances. 
 
 #### Inference and Discussion of this Section
 
-The ability to convert the SIR model to a Hamiltonian Dynamics model proves nothing except for the chance of solving very simple situations in this type of setup. Miniscule steps are required to not blow up the model, and steps either in the future or the past are rarely acquirable. The loss of information in a conserved model is what throws off the Hamiltonian, and there are very strict values and conserved species that truly allow the Hamiltonian to be followed within SIR models. 
+It is important to note that the ability to convert the SIR model to a Hamiltonian Dynamics model proves nothing except for the chance of solving very simple, specific situations in this type of setup. The ability to do this only exists if there are a lot of real world factors not taken into account, such as the loss of information, and the inability for this system to be closed. Miniscule steps are required to not blow up the model, and steps either in the future or the past are rarely acquirable in accuracy. The loss of information in a conserved model is what throws off the Hamiltonian the most, and there are very strict values and conserved species that truly allow the Hamiltonian to be followed within SIR models. 
