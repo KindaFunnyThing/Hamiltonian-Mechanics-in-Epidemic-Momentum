@@ -78,7 +78,7 @@ A more inferring version of the eqaution can be looked at in order to convert th
 
 <div align="right">
 
-$$\begin{aligned}V(S,I)=S- \hat S \log{S} + I - \hat I \log{I}\end{aligned}$$
+$$\begin{aligned}V(S,I)=S- \hat S \log{S} + I - \hat I \log{I}\end{aligned} \text{(2.3)}$$
 
 </div>
 
