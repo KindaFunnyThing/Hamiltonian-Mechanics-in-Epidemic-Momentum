@@ -238,19 +238,19 @@ Figure 2: These are nullclines for the two-species Lotka-Volterra Model with a m
 
 Epidemics have a long and storied history concerning and relating to human beings. Many have had enormous death tolls both to do with infection from the pathogen and the social havoc it has the potential to wreak. So, in order to combat these events, models have been created in order to further understand and dissect the spread of infectious agents. One model that is useful for doing this is the SIR, or Susceptible-Infected-Recovered model (also known as Susceptible-Infected-Removed), model. This model splits the population into;
 
-$$
-Susceptible (S): \text{the individuals in the population that are able to be infected by the pathogen}
-$$
+$
+Susceptible (S):
+$ the individuals in the population that are able to be infected by the pathogen
 
-$$
-Infected (I): \text{the individuals who have already been infected with 
-the pathogen and have not yet recovered from the infection}
-$$
+$
+Infected (I): 
+$ the individuals who have already been infected with 
+the pathogen and have not yet recovered from the infection
 
-$$
-Recovered (R): \text{the individuals who have been infected and then have
-recovered from the infection and cannot be reinfected}
-$$
+$
+Recovered (R):
+$ the individuals who have been infected and then have
+recovered from the infection and cannot be reinfected
 
 These categories by themselves are useful for looking at a population 
 in a specific point in time but when looking at the changes in them as 
@@ -292,7 +292,7 @@ $$
 The γ term represents the recovery rate of infected individuals transferring them to the recovered pool with equation 2.6,
 
 $$
-\begin{align}\frac{dR}{dt}=\gamma I-\mu R\left(2.6\right)\end{align}
+\begin{align}\frac{dR}{dt}=\gamma I-\mu R \left(2.6\right)\end{align}
 $$
 
 With these three equations we assume that the infection rate of the pathogen does not change throughout the period of infection, that once they have been exposed to the pathogen that a susceptible individual is immediately infectious, that people in the recovered category are now immune to reinfection and that there are no changing social factors (which may be included in the ß term). These assumptions, like the death and birth rate assumptions, limit the application of these equations but also simplify the analysis of the situation. For this SIR model, the basic reproductive ratio is shown in equation 2.7. 
